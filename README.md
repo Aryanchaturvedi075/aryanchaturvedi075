@@ -1,4 +1,5 @@
-# <img src="https://github.com/Aryanchaturvedi075/aryanchaturvedi075/blob/main/wave.gif" width="30px"> Howdy, Aryan here! Welcome to my coding corner. Freshly renovated, furnishing in the works :P
+# <img src="https://github.com/Aryanchaturvedi075/aryanchaturvedi075/blob/main/wave.gif" width="30px"> <img src="./greetings.svg" width="400"> Welcome to my coding corner. Freshly renovated, furnishing in the works :P
+<script src="./languages.js"></script>
 <h3 align="center">A software engineering student from India and Mauritius based in Montreal! Starting out in the amazing world of web development so here's my log of web dev tutorials and projects!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aryanchaturvedi075&label=Profile%20views&color=0e75b6&style=flat" alt="aryanchaturvedi075" /> </p>
