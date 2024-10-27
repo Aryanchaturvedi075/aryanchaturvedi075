@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="50">
+  <defs>
+    <style>
+      @keyframes blinds {
+        0%, 20% {
+          clip-path: inset(0 0 0 0);
+          opacity: 1;
+        }
+        23%, 25% {
+          clip-path: inset(0 100% 0 0);
+          opacity: 0;
+        }
+        28%, 45% {
+          clip-path: inset(0 0 0 0);
+          opacity: 1;
+        }
+        48%, 50% {
+          clip-path: inset(0 100% 0 0);
+          opacity: 0;
+        }
+        53%, 70% {
+          clip-path: inset(0 0 0 0);
+          opacity: 1;
+        }
+        73%, 75% {
+          clip-path: inset(0 100% 0 0);
+          opacity: 0;
+        }
+        78%, 95% {
+          clip-path: inset(0 0 0 0);
+          opacity: 1;
+        }
+        98%, 100% {
+          clip-path: inset(0 100% 0 0);
+          opacity: 0;
+        }
+      }
+      .greeting {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        animation: blinds 20s infinite;
+      }
+    </style>
+  </defs>
+  
+  <text x="10" y="35" class="greeting">
+    <tspan id="dynamic-text">Hello there, I'm Aryan!</tspan>
+  </text>
+</svg>
