@@ -6,24 +6,18 @@ const greetings = [
   { text: "こんにちは、私は Aryan です!", lang: "ja" },
   { text: "Bonjour, je suis Aryan!", lang: "fr" },
   { text: "Ciao, sono Aryan!", lang: "it" },
-  { text: "你好，我是 Aryan!", lang: "zh"},
+  { text: "你好，我是 Aryan!", lang: "zh" },
   { text: "Hallo, ich bin Aryan!", lang: "de" }
-];
+  ];
 
-let currentIndex = 0;
+  let index = 0;
+  const tspanElement = document.getElementById('dynamic-text');
+  tspanElement.textContent = greetings[0].text;
+  tspanElement.setAttribute('xml:lang', greetings[0].lang);
 
-function updateGreeting() {
-  const svgs = document.querySelectorAll('svg');
-  svgs.forEach(svg => {
-    const textElement = svg.querySelector('#dynamic-text');
-    if (textElement) {
-      textElement.textContent = greetings[currentIndex].text;
-    }
+  // Listen for animation iterations      
+  document.querySelector('.greeting').addEventListener('animationiteration', () => { 
+      index = ++index % greetings.length;
+      tspanElement.textContent = greetings[index].text;
+      tspanElement.setAttribute('xml:lang', greetings[index].lang);
   });
-  currentIndex = (currentIndex + 1) % greetings.length;
-}
-
-// Update text every 5 seconds (matching the animation duration)
-setInterval(updateGreeting, 5000);
-// Initial update
-updateGreeting();
