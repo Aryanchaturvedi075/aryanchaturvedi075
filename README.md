@@ -1,6 +1,9 @@
-![Greetings Animation](./greetings.svg)
-# <img src="./wave.gif" width="30px"> Welcome to my coding corner. Freshly renovated, furnishing in the works :P
-<h3 align="center">A software engineering student from India and Mauritius based in Montreal! Starting out in the amazing world of web development, here's my log of web dev tutorials and projects!</h3>
+# <img src="./wave.gif" width="30px"> ![Greetings Animation](./greetings.svg)
+# Welcome to my coding corner. Freshly renovated, furnishing in the works :P
+
+<h3 align="center">
+A software engineering student from India and Mauritius based in Montreal! Starting out in the amazing world of web development, here's my log of web dev tutorials and projects!
+</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aryanchaturvedi075&label=Profile%20views&color=0e75b6&style=flat" alt="aryanchaturvedi075" /> </p>
 

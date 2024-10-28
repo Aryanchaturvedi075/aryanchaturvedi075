@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="45">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="37">
     <defs>
         <style>
             @keyframes blinds {
@@ -18,7 +18,7 @@
             }
             .greeting {
                 font-family: Arial, sans-serif;
-                font-size: 32px;
+                font-size: 6vw;
                 font-weight: bold;
                 fill: #A0A0A0;
                 opacity: 0;
@@ -27,12 +27,12 @@
         </style>
     </defs>
     
-    <text class="greeting" x="10" y="37">Hello there, I'm Aryan!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 5s;">नमस्ते, मैं अर्यन हूं!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 10s;">Bonjour, je m'appelle Aryan!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 15s;">こんにちは、私は Aryan です!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 20s;">¡Hola, soy Aryan!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 25s;">Ciao, sono Aryan!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 30s;">你好，我是 Aryan!</text>
-    <text class="greeting" x="10" y="37" style="animation-delay: 35s;">Hallo, ich bin Aryan!</text>
+    <text class="greeting" x="10" y="30">Hello there, I'm Aryan!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 5s;">नमस्ते, मैं अर्यन हूं!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 10s;">Salut, je m'appelle Aryan!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 15s;">こんにちは、私は Aryan です!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 20s;">¡Hola, soy Aryan!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 25s;">Ciao, sono Aryan!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 30s;">你好，我是 Aryan!</text>
+    <text class="greeting" x="10" y="30" style="animation-delay: 35s;">Hallo, ich bin Aryan!</text>
 </svg>
