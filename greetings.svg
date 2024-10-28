@@ -1,50 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="50">
   <defs>
     <style>
-      @keyframes blinds {
-        0%, 20% {
-          clip-path: inset(0 0 0 0);
-          opacity: 1;
+        @keyframes blinds {
+            0% { clip-path: inset(0 100% 0 0); }
+            2.5% {
+                clip-path: inset(0 0 0 0);
+                opacity: 1;
+            }
+            10% {
+                clip-path: inset(0 0 0 0);
+                opacity: 1;
+            }
+            12.5% {
+                clip-path: inset(0 100% 0 0);
+                opacity: 0;
+            }
         }
-        23%, 25% {
-          clip-path: inset(0 100% 0 0);
-          opacity: 0;
+        .greeting {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            opacity: 0;
+            animation: blinds 40s infinite;
         }
-        28%, 45% {
-          clip-path: inset(0 0 0 0);
-          opacity: 1;
-        }
-        48%, 50% {
-          clip-path: inset(0 100% 0 0);
-          opacity: 0;
-        }
-        53%, 70% {
-          clip-path: inset(0 0 0 0);
-          opacity: 1;
-        }
-        73%, 75% {
-          clip-path: inset(0 100% 0 0);
-          opacity: 0;
-        }
-        78%, 95% {
-          clip-path: inset(0 0 0 0);
-          opacity: 1;
-        }
-        98%, 100% {
-          clip-path: inset(0 100% 0 0);
-          opacity: 0;
-        }
-      }
-      .greeting {
-        font-family: Arial, sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        animation: blinds 20s infinite;
-      }
     </style>
   </defs>
   
-  <text x="10" y="35" class="greeting">
-    <tspan id="dynamic-text">Hello there, I'm Aryan!</tspan>
-  </text>
+  <text class="greeting" x="10" y="30">Hello there, I'm Aryan!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 5s;">नमस्ते, मैं अर्यन हूं!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 10s;">Bonjour, je m'appelle Aryan!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 15s;">こんにちは、私は Aryan です!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 20s;">¡Hola, soy Aryan!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 25s;">Ciao, sono Aryan!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 30s;">你好，我是 Aryan!</text>
+  <text class="greeting" x="10" y="30" style="animation-delay: 35s;">Hallo, ich bin Aryan!</text>
+  
 </svg>
