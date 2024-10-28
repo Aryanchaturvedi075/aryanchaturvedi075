@@ -20,7 +20,7 @@
                 font-family: Arial, sans-serif;
                 font-size: 32px;
                 font-weight: bold;
-                fill: #A0A0A0;
+<!--                 fill: #A0A0A0; -->
                 opacity: 0;
                 animation: blinds 40s infinite;
             }
