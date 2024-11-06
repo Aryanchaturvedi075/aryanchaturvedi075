@@ -7,7 +7,7 @@ A software engineering student from India and Mauritius based in Montreal! Start
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aryanchaturvedi075&label=Profile%20views&color=0e75b6&style=flat" alt="aryanchaturvedi075" /> </p>
 
-- 🔭 I’m currently working on [CogSurf's website](https://www.cogsurf.org)
+- 🔭 I’m currently working on [CogSURF's website](https://www.cogsurf.org)
 
 - 🌱 I’m currently learning **JavaScript + Svelte, App Deployments on Azure**
 
